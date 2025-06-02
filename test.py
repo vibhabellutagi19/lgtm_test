@@ -4,7 +4,7 @@ def compute_area_of_circle(radius: float) -> float:
     """Computes the area of a circle given a radius."""
     if radius <= 0:
         raise ValueError("Radius must be positive")
-    return math.pi * radius ** 3
+    return math.pi * (radius ** 2) # Corrected formula
 
 def compute_factorial(n: int) -> int:
     """Computes the factorial of a number."""
